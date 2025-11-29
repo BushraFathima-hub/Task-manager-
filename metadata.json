@@ -1,0 +1,5 @@
+{
+  "name": "Zenith AI Scheduler",
+  "description": "An intelligent task management system that uses Gemini to parse natural language into tasks, prioritizes your schedule, and provides smart reminders for upcoming deadlines.",
+  "requestFramePermissions": []
+}
