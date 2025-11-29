@@ -206,42 +206,6 @@ npm run dev
 npm run worker
 ```
 
----
-
-## Environment Variables (example)
-
-```
-# Server
-PORT=4000
-NODE_ENV=development
-JWT_SECRET=your_jwt_secret
-
-# Database
-DATABASE_URL=postgres://user:pass@localhost:5432/taskdb
-REDIS_URL=redis://localhost:6379
-
-# Email / SMS
-SMTP_HOST=smtp.example.com
-SMTP_PORT=587
-SMTP_USER=...
-SMTP_PASS=...
-TWILIO_SID=...
-TWILIO_AUTH_TOKEN=...
-
-# Storage
-S3_ENDPOINT=
-S3_ACCESS_KEY=
-S3_SECRET_KEY=
-S3_BUCKET=
-
-# AI / Vector
-OPENAI_API_KEY=
-VECTOR_DB_URL=
-
-```
-
----
-
 ## Extensibility & Notes
 
 * **Offline support:** Use service workers + IndexedDB for queuing offline-created tasks.
